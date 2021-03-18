@@ -1,4 +1,4 @@
 # Запуск
 
-* Для запуска: npm run start
-* Адрес после: http://localhost:7000/
+1. Для запуска: npm run start
+2. Адрес после: http://localhost:7000/
