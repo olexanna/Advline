@@ -1,0 +1,54 @@
+.header{
+	color: white;
+	z-index: 2;
+	position: relative;
+
+	& > p{
+		margin:unset!important;
+	}
+
+	&-row{
+		display: flex;
+		justify-content: space-between;
+		padding: 32px 0px 0px 0px;
+
+		& > a{
+			color: unset;
+			text-decoration: none!important;
+		}
+
+		&-logo{
+			font-size: 26px;
+			font-family: "Montserrat-Semi";
+		}
+
+		&-btn{
+			border: 1px #fff solid;
+			line-height: 24px;
+			font-size: 16px;
+			padding: 11px 15px  11px 15px;
+			font-family: "Montserrat-Semi";
+			cursor: pointer;
+			border-radius: 6%;
+		}
+	}
+
+	&-dots{
+		display: flex;
+		justify-content: flex-end;
+		margin: 115px 128px 0px 0px;
+
+		&-active{
+			background: black!important;
+		}
+
+		&-item{
+			width: 15px;
+			height: 15px;
+			margin: 0px 16px 0px 0px;
+			border-radius: 100%;
+			background: white;
+			cursor: pointer;
+		}
+	}
+}

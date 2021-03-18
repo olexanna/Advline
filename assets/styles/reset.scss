@@ -1,0 +1,18 @@
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+
+body{
+	scroll-behavior: auto;
+	font-weight: inherit;
+}
+
+* {
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	scrollbar-width: thin;
+}
